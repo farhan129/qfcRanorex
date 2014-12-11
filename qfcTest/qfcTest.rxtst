@@ -1,0 +1,44 @@
+﻿<testsuite
+name="qfcTest"
+rxversion="5.1.2.19431"
+id="f05e99fc-9305-4be1-8729-888b19d42491"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reportdirectoryname="D:\Ranorex solutions\qfcTest\qfcTest\Reports"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+reportlevel="Info;20"
+warnunboundvariables="False">
+	<content>
+		<testcase
+		name="TestCase"
+		id="796799db-8d04-4b2e-abc0-c5e02f15f6fe">
+			<testmodule
+			name="Recording1"
+			id="271ef144-2f72-4f0f-904e-fcf178b17794"
+			ref="234d3f6c-d18e-49c5-acd2-4a7d7657ec87"
+			type="Recording"/>
+			<teardown
+			name="container"
+			id="0f29eba7-db8c-4200-810e-bc78cba81fda">
+				<testmodule
+				name="CloseBrowser"
+				id="cad12102-23be-4a34-9585-8fc003eefd0e"
+				ref="7236e175-b31e-4e8c-a2eb-11dd60a8931d"
+				type="Recording"/>
+			</teardown>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="796799db-8d04-4b2e-abc0-c5e02f15f6fe"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

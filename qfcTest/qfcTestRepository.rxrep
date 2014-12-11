@@ -1,0 +1,181 @@
+﻿<repository
+name="qfcTestRepository"
+id="8b228707-8153-4279-ae0a-b54f8ce733ce"
+rxversion="5.1.2.19431">
+	<codegen
+	classname="qfcTestRepository"
+	namespace="qfcTest"/>
+	<rootfolder
+	name="Root"
+	id="81d0428c-6a82-49c9-bfc6-46fdf789916f"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="WebDocumentQFC"
+		id="2d2e3ce7-afbc-4451-9164-5803a2dae159"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="RowSearchHeader"
+			id="04087dca-a1e7-4a11-85af-8dca005b65af"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="btn_Search"
+				id="48699342-84cc-4b53-9d62-ad48d4adc2c3"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="44d6bc2c-3080-484a-95a3-f06fc73ed54a">
+					/dom[@domain='localhost:90']/body/div/div[1]/div[2]/div/div/div[2]/div[3]/button[@innertext='SEARCH']
+				</item>
+				<item
+				name="drp_CountryList"
+				id="c916e6b2-e2c6-49ee-987d-27ecd73875bc"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="bcbf9769-a358-4388-9230-8cf20cbf512a">
+					/dom[@domain='localhost:90']/body/div/div[1]/div[2]/div/div/div[2]/div[1]/select
+				</item>
+				<item
+				name="selectedCountry"
+				id="9c47d890-1e1f-43db-8703-e847a7488d0f"
+				searchtimeout="30000ms"
+				capname="optiontag"
+				addcaps="unknown,webelement,optiontag">
+					/dom[@domain='localhost:90']/body/div/div[1]/div[2]/div/div/div[2]/div[1]/select/option[@value='5']
+				</item>
+				<basepath>
+					/dom[@domain='localhost:90']/body/div/div[1]/div[2]/div/div/div[2]
+				</basepath>
+			</folder>
+			<item
+			name="lnk_Treaty"
+			id="998e6fdc-43a5-4108-964b-87c90dbefbd8"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="5085f310-3428-4936-961f-ac3004849454">
+				/dom[@domain='localhost:90']/body/div/div[3]//table/tbody/tr[1]/td[1]/a
+			</item>
+			<item
+			name="icn_treatyClose"
+			id="db933ab4-945a-494d-b57f-6f5c5d5f1b03"
+			searchtimeout="30000ms"
+			capname="spantag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="918d58ab-3582-405f-b53f-bfad7f98f40f">
+				/dom[@domain='localhost:90']//a[@href=$treatyTabLink]/..//span[@class='btn_close']
+			</item>
+			<item
+			name="Welcome"
+			id="d7d2893a-2313-4b9a-8881-ef22c622342b"
+			searchtimeout="60000ms"
+			capname="h1tag"
+			refpath="/dom[@domain='localhost:90']/body/div/div[3]/div/div/h1[@innertext='Welcome ... ']"
+			addcaps="unknown,webelement,h1tag"
+			refimgid="b6a422b3-d1db-440a-b256-242e2a4b63ae">
+				/dom[@domain='localhost:90']/body/div/div[3]//h1[@innertext='Welcome ... ']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:90']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Dropdown"
+		id="374ade8a-2964-42bd-aed5-483e8a063551"
+		searchtimeout="30000ms"
+		capname="container"
+		refpath="/container[@caption='dropdown']"
+		addcaps="container"
+		refimgid="a818993b-49df-4492-aa79-3d3835ad388c"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="QFCGoogleChrome"
+		id="b184ae91-7a30-44e3-a496-aca27e82719d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='QFC - Google Chrome']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Close"
+			id="79f40636-8b84-4289-ae53-41e395ff0499"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,accessible"
+			refimgid="8ad3f6af-9454-4da1-9228-ba70a1d2c82e">
+				/form[@title='QFC - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='QFC']/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='QFC - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKUSURBVDhPtZJrSJNRHMZfVAotR6UTL9NSh3dT
+55VJuznnpq8VBWKUIalUFBTBwOyLQfahIijEJChH0g3TUsnEYR9aamnekrFMZRfNeVmQFpIZPJ3z
+umZW9K0Hfp/OeX7nfw6H+S/RZ6X62A6zrXNl+0GZLmI/jbJSrXP5n3EzSzMW5vZmY74wD46i3XAc
+ysd8gQaz+VmwSNLwJiGuwLn3j7hPxMViSpyGabkYdpUEMxoZZtRS2JW78EGagan0FNgSdmIwJLTG
+2VlL2bnkBUtkDKzx8bAlJWIyVYSptGRMUpKTuKI1OhYWYRTGQsJRzef7O6sMIywVCvLbNegRhsEc
+FglzeBQsxUcwZJxAv9EC2/teTDYHwf7MH45OPhYMW7HYsxHOOsPI70j0VLCvToa+oO2wFpfg2O0R
+nKg34fS9URzVGTE8bsf3t54uvg5soAJPTqBsUIAKKLURgRixOLDnah8OVA/gYM0gCq73I+/yayyb
+UlyClWEvKvDhBFkPFGCdArZZhdZBO8TnDVBUdUN5sQeyC13IqHyBlfFsl+Db0GYq4HMCeZ3sM9u2
+KqDMLs0gWvsU8Wc7kFChR1x5O9hLz11lylKv95ogqUJ0Jfex2jUFpXvEDEFJHYJLdUjXPsQ7Y9W6
+0x2dW6iAxwlIAmS3ZMhrWS85aTgOreEM5DrluvKXbl901fq1kZ77ap1hPIRFUeWqehW4Sch1foo0
+T3Jg6vIlj7YJy/08LL70g6UxkJ4esFpdCy/mVGKT9IYc6vs5yG1SI7dZjcJHciy92sYVP3YIMHY3
+hJZjCG5c67fwvIJ5KlFVJjKvSaG4qSQfKBTWxlCYdDvQUinQkz1Cgmv0v8WDQMcTESQEKUFMiCB4
+E34Jw/wAIYCYdN+bo0cAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="treatyTabLink"
+		id="983d3b26-814e-4ba5-9c19-6d627b407465">
+			http://localhost:90/#/document/123
+		</var>
+	</variables>
+</repository>

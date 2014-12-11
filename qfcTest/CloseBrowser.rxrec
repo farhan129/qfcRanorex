@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.1.2.19431"
+id="7236e175-b31e-4e8c-a2eb-11dd60a8931d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="qfcTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="300ms"
+		searchpropertyid="cfdc4f4e-7483-4950-8253-bb9b03bb73fd"
+		action="Click"
+		button="Left"
+		movetime="800ms"
+		sx="231"
+		sy="11"
+		loc="12;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="79f40636-8b84-4289-ae53-41e395ff0499">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="219,-3,39,29"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblehelp"
+					type="System.String">
+						TabCloseButton
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						HotTracked, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title='QFC - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='QFC']/button[@accessiblename='Close']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1ed49c06-b636-48ce-acca-539147c3fbe7">
+				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
+c47nJpaKKACiiigAooooA//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="qfcTestRepository"
+	id="8b228707-8153-4279-ae0a-b54f8ce733ce"
+	rxversion="5.1.2.19431"
+	relativepath="qfcTestRepository.rxrep">
+		<codegen
+		classname="qfcTestRepository"
+		namespace="qfcTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="81d0428c-6a82-49c9-bfc6-46fdf789916f"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
